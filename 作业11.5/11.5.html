@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            /* margin-top: 100px; */
+            height: 40px;
+            width: 50px;
+            background-color: #388beb;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .box1{
+            /* margin-top: 100px; */
+            height: 40px;
+            width: 50px;
+            background-color: #eb3838;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .box:hover{
+            width: 195px;
+        }
+        .box1:hover{
+            width: 195px;
+        }
+        .cd{
+            margin: 0 auto;
+            line-height: 50px;
+            height: 50px;
+            width: 88%;
+            border-radius: 5px;
+            position: relative;
+        }
+        .box{
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .box1{
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .imge{
+            vertical-align:middle;
+            margin-left:5px;
+            height: 35x;
+            width: 35px;
+        }
+        .wz{
+            position:absolute;
+            white-space: nowrap;
+            transition: 0.3s;
+            opacity: 0;
+            margin-left: 8px;
+            top: 2px;
+        }
+        .box:hover span{
+           opacity: 1;
+        }
+        .box1:hover span{
+           opacity: 1;
+        } 
+    </style>
+</head>
+<body>
+    <div class="box">
+        <a href="#" class="cd"><img class="imge" src="1.png" alt=""><span class="wz">访客Vsitor</span></a>
+    </div>
+    <div class="box1">
+        <a href="#" class="cd"><img class="imge" src="1.png" alt=""><span class="wz">学生Student</span></a>
+    </div>
+</body>
+</html><span class="wz">访客Vistor</span>
