@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>9*9乘法表</title> 
+</head>
+<body>
+<style>
+  body{
+    background-color: aqua;
+  }
+</style>
+<script>
+  document.write("<table>");
+for(var row = 1; row < 10; row++){
+  document.write("<tr>");
+  for(var column = 1; column <= row; column++){
+  
+    document.write("<td>" + column + " x " + row + " = " + column * row +"</td>"  );
+
+  }
+  document.write("</tr>");
+ 
+}
+document.write("</table>");
+</script>
+
+
+</body>
+</html>
