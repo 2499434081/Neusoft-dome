@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">   
+    <title>个人信息收集表-</title>
+</head>
+
+<body>
+	  <script>
+		  alert('请填写个人信息收集表')
+	  </script>
+	<table border="1" class="biao">
+			<tr>
+						 <th colspan="2" align="center">个人信息收集表</th>
+			</tr>
+            <tr>
+                <td>姓名：</td>
+                <td>
+                    <input type="text" name="username" placeholder="请输入你的名字">
+                </td>
+            </tr><br>
+            <tr>
+                <td>年龄：</td>
+                <td>
+                    <input type="text" name="userage" placeholder="请输入你的年龄">
+                </td>
+            </tr><br>
+            <tr>
+                <td>性别：</td>
+                <td>
+                    <input type="radio" name="usersex" value="1">男
+                    <input type="radio" name="usersex" value="0">女
+                </td>
+            </tr><br>
+            <tr>
+                <td>血型：</td>
+                <td>
+					 <input type="radio" value="A" name="blood">A
+					 <input type="radio" value="B" name="blood">B
+                     <input type="radio" value="O" name="blood">O
+                    <input type="radio" value="AB" name="blood">AB<br />
+                    <input type="radio" value="RHY" name="blood">Rh阳
+					<input type="radio" value="RHy" name="blood">Rh阴
+                    
+                </td>
+            </tr><br>
+            <tr>
+                <td>爱好：</td>
+                <td>
+					<input type="checkbox" value="baseketball" name="hobby">篮球
+					<input type="checkbox" value="running" name="hobby">足球
+                    <input type="checkbox" value="running" name="hobby">跑步<br />
+                    <input type="checkbox" value="jiansheng" name="hobby">徒手健身
+                    <input type="checkbox" value="swimming" name="hobby">游泳<br>
+                </td>
+            </tr><br>
+			<tr>
+			    <td>所会编程语言：</td>
+			    <td>
+					<input type="checkbox" value="c++" name="hobby">c++
+					<input type="checkbox" value="qt" name="hobby">qt
+					<input type="checkbox" value="c#" name="hobby">c#
+					<input type="checkbox" value="java" name="hobby">Java<br />
+			        <input type="checkbox" value="python" name="hobby">python
+			        <input type="checkbox" value="c" name="hobby">c语言
+			        <input type="checkbox" value="h5" name="hobby">h5<br>
+			    </td>
+			</tr><br>
+            <tr>
+                <td>上传一张你的照片：</td>
+                <td>                   
+                    <button><input type="file" value="选择图片"></button>
+                </td>
+            </tr><br>
+            <tr>
+                <td>简介：</td>
+                <td>
+                    <textarea name="textarea"  rows="5" cols="25" id="ziwo" placeholder="请输入你的简介"></textarea>
+                </td>
+            </tr><br>
+            <tr>
+                <td>城市：</td>
+                <td>
+                    <select>
+                        <option name="选项的值" selected="">成都市</option>
+                        <option value="成都市">成都市</option>
+                        <option value="西安市">西安市</option>
+                        <option value="宝鸡市">宝鸡市</option>
+                        <option value="广元市">广元市</option>
+                        <option value="重庆市">重庆市</option>
+                    </select>
+                </td>
+            </tr><br>
+			<tr>
+				
+					 <th colspan="2" align="center"><input type="submit" value="提交" style="color: darkred";>
+	                <input type="reset" value="重置"  style="color: darkgreen;"></th>     				
+			</tr>
+
+</table>
+
+</body>
+<style>
+		textarea{
+			color: chocolate;
+			font-family: "宋体";
+			font-size: 20px;
+		}
+		input{
+			
+			font-family: "宋体";
+			font-size: 20px;
+		}
+		
+		select{
+			color: cornflowerblue;
+			font-family: "宋体";
+			font-size: 20px;
+		}
+		body{
+			
+			font-family: "宋体";
+			font-size: 20px;
+		}
+		table{
+			background-color: green;
+		}
+		table:hover{
+			background-color: NavajoWhite;
+		}
+		
+		.biao:hover{
+			font-family: "宋体";
+			font-size: 26px;
+		}
+	</style>
+</html>
