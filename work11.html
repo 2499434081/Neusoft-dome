@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>12</title>
+    <script src="JQuery.min.js"></script>
+</head>
+
+<body>
+    <input type="text" id="t1" /> <button onclick="copy()">复制</button>
+    <input type="text" id="t2" /><br />
+    <a href="#" style="display: none;">复制成功</a>
+    <script type="text/javascript">
+        function copy() {
+            document.getElementById("t2").value = document.getElementById("t1").value;
+            if ($("a").css("display") != "block") {
+                    $("a").css("display", "block");
+                } else {
+                    $("a").css("display", "none");
+                }
+        }
+    </script>
+</body>
+
+</html>
