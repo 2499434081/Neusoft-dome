@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 150px;
+            height: 100px;
+            background-color:rgb(201, 201, 210);
+
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="box">
+        <a href="#" onclick="dl()">登录 </a>  |  <a href="#" onclick="zc()">注册 </a>
+        <p>这是主页面</p>
+    </div>
+</body>
+<script>
+    function dl() {
+      myzc= window.open('','','width=240,height=230');
+      myzc.document.write("<from><p>游客，你好！</p><p>用户名：</p><input type='text' value='请输入账号'></br><p>密码：</p><input type='password' value=''></br></br><input type='submit' value='登录'>");
+      myzc.focus();
+      myzc.document.body.style.backgroundColor = 'aqua'
+      
+
+    }
+    function zc() {
+
+
+  mydl= window.open('','','width=240,height=230');
+        mydl.document.write("<from><p>用户名：</p><input type='text' value='请输入账号'></br><p>密码：</p><input type='password' value=''></br></br><input type='submit' value='注册'>");
+        mydl.focus();
+        mydl.document.body.style.backgroundColor = 'antiquewhite'
+    }
+</script>
+</html>
